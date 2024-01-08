@@ -92,3 +92,124 @@ body{
     width: 1320px;
     height: 600px;
 }
+/* join now style */
+.joinnow{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.joinnow h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+.joinnow h3 span{
+    color:red;
+}
+
+/* best-offer section style */
+.best-offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.best-offer-text{
+    width: 30%;
+    align-content: flex-start;
+}
+.best-offer-img{
+    width: 30%;
+
+}
+.best-offer-year{
+    width: 30%;
+}
+
+.best-offer-text h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.best-offer-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.best-offer-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.best-offer-year h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer-year p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.best-offer-year img{
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
+}
+.cir-img{
+    padding: 20px;
+    width: 364.844px;
+    height: 364.844px;
+    border: #F00 solid 10px;
+    border-radius: 220px;
+}
+
+/* Holiday section style */
+.holiday-img-top{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.holiday-img-bottom{
+    display: block;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
