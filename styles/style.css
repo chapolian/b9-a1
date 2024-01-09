@@ -354,8 +354,13 @@ body{
     margin-bottom: 50px;
 }
 
-.row1 :hover img{
-    transform: scale(1.1);
+.row1 img:hover{
+    transform:scale(1.1);
+    transition: 0.5s ease;
+}
+.row2 img:hover{
+    transform:scale(1.1);
+    transition: 0.5s ease;
 }
 
 /* subscribe section style */
