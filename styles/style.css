@@ -82,7 +82,7 @@ body{
 
 /* party section design */
 .party{
-    background-image: url('/images/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/images/Vectorrr.png');
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -115,7 +115,9 @@ body{
 }
 
 .party-btn {
-    color: #FFF;
+    color: #ff0000;
+    padding: 10px;
+    border: 2px solid white;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
@@ -124,7 +126,9 @@ body{
     line-height: normal;
     text-transform: uppercase;
     margin-left: 126px;
-    text-decoration: none;
+    margin-top: 50px;
+    background: none;
+    cursor: pointer;
 }
 /* join now style */
 .joinnow{
@@ -233,19 +237,83 @@ body{
 }
 
 /* Holiday section style */
-.holiday-img-top{
+.holiday{
     width: 1320px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: last baseline;
+    margin-top: 100px;
 }
-.holiday-img-bottom{
-    display: block;
+
+.holiday-text h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.holiday-text h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.holiday-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.holiday-text span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday .holiday-img{
     width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 500px;
+    background-image: url('/images/Rectangle_2.png');
+    background-repeat:no-repeat;
+    background-position: bottom;
+    display: flex;
+    margin-top: 50px;
+    }
+
+.holiday-img .box{
+    width: 700px;
+    height:500px;
+    margin-left: 100px;
+}
+.holiday-img .discount{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+
+    border-radius: 100px solid white;
+
+
+}
+.holiday-img .women{
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 230px;
+    margin-right: 200px;
+    margin-left: -100px;
+    z-index: -1;
 }
 
 /* portfolio section design */
@@ -263,6 +331,7 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 50px;
 }
 .portfolio h2{
     color: #070211;
@@ -272,6 +341,7 @@ body{
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 50px;
 }
 
 .portfolio p{
@@ -281,6 +351,11 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.row1 img :hover{
+    transform: scale(1.1);
 }
 
 /* subscribe section style */
