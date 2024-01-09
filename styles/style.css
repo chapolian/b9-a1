@@ -354,7 +354,7 @@ body{
     margin-bottom: 50px;
 }
 
-.row1 img :hover{
+.row1 :hover img{
     transform: scale(1.1);
 }
 
